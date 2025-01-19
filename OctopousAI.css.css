@@ -1,0 +1,336 @@
+/* General Styles /
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #0a0a23;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/ Hero Section /
+.hero-section {
+    background: linear-gradient(135deg, #1a1a5e, #0a0a23);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/ Navbar /
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-button {
+    background: #ff7a00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/ Hero Content /
+.hero-content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-buttons {
+    margin-top: 1.5rem;
+}
+
+.cta-link {
+    text-decoration: none;
+    color: #fff;
+    background: #ff7a00;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+/ Features Section */
+.features-section {
+    padding: 2rem;
+    background-color: #0d0d35;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.feature-item {
+    background: #1a1a5e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Tokenomics Section */
+.tokenomics-section {
+    padding: 2rem;
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+}
+
+.tokenomics-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tokenomics-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tokenomics-chart, .tokenomics-details {
+    background: #1a1a5e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    flex: 1;
+}
+
+.tokenomics-chart h3, .tokenomics-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tokenomics-chart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tokenomics-chart li {
+    margin: 0.5rem 0;
+}
+
+.tokenomics-details p {
+    margin: 0.5rem 0;
+}
+
+/* Roadmap Section */
+.roadmap-section {
+    padding: 2rem;
+    background-color: #0d0d35;
+    color: #fff;
+    text-align: center;
+}
+
+.roadmap-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.roadmap-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.roadmap-item {
+    background: #1a1a5e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.roadmap-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.roadmap-item p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 2rem;
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-form, .contact-info {
+    background: #1a1a5e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form h3, .contact-info h3 {
+    margin-bottom: 1rem;
+}
+
+.contact-form form, .newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea,
+.newsletter-form input {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button, .newsletter-form button {
+    background: #ff7a00;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover, .newsletter-form button:hover {
+    background: #e66900;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-info ul li {
+    margin: 0.5rem 0;
+}
+
+.contact-info ul li a {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+/* Fade-In Animation /
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/ Initial State for Animations /
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/ Active State */
+.section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+button, .cta-link {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+button:hover, .cta-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 122, 0, 0.5);
+}
+
+/* Back-to-Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff7a00;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+#back-to-top:hover {
+    transform: scale(1.1);
+}
+
